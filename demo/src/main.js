@@ -4,9 +4,12 @@ import Vue from 'vue'
 import FastClick from 'fastclick'
 import App from './App'
 import router from './router'
-import  { AlertPlugin } from 'vux'
+import  { AlertPlugin, ConfirmPlugin, dateFormat, DatetimePlugin, LoadingPlugin } from 'vux'
 
 Vue.use(AlertPlugin)
+Vue.use(ConfirmPlugin)
+Vue.use(DatetimePlugin)
+Vue.use(LoadingPlugin)
 
 FastClick.attach(document.body)
 

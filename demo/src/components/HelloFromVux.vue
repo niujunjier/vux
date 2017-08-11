@@ -30,7 +30,9 @@ export default {
         'MyformPreview',
         'MyCell',
         'MyCheckIcon',
-        'MyChecker'
+        'MyChecker',
+        'MyCheckList',
+        'MyClock'
       ]
     }
   }

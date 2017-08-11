@@ -13,6 +13,8 @@ import MyformPreview from '@/components/MyformPreview'
 import MyCell from '@/components/MyCell'
 import MyCheckIcon from '@/components/MyCheckIcon'
 import MyChecker from '@/components/MyChecker'
+import MyCheckList from '@/components/MyCheckList'
+import MyCLock from '@/components/MyCLock'
 
 Vue.use(Router)
 
@@ -82,6 +84,16 @@ export default new Router({
       path: '/MyChecker',
       name: 'MyChecker',
       component: MyChecker
+    },
+    {
+      path: '/MyCheckList',
+      name: 'MyCheckList',
+      component: MyCheckList
+    },
+    {
+      path: '/MyCLock',
+      name: 'MyCLock',
+      component: MyCLock
     }
   ]
 })

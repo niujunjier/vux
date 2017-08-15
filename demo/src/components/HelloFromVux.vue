@@ -58,7 +58,12 @@ export default {
         'MyPreview',
         'MyQrcode',
         'MyRadio',
-        'MyRange'
+        'MyRange',
+        'MyRater',
+        'MySearch',
+        'MySelecter',
+        'MySpinner',
+        'MyStep'
       ]
     }
   }

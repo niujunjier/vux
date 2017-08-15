@@ -42,6 +42,11 @@ import MyPreview from '@/components/MyPreview'
 import MyQrcode from '@/components/MyQrcode'
 import MyRadio from '@/components/MyRadio'
 import MyRange from '@/components/MyRange'
+import MyRater from '@/components/MyRater'
+import MySearch from '@/components/MySearch'
+import MySelecter from '@/components/MySelecter'
+import MySpinner from '@/components/MySpinner'
+import MyStep from '@/components/MyStep'
 
 Vue.use(Router)
 
@@ -256,6 +261,31 @@ export default new Router({
       path: '/MyRange',
       name: 'MyRange',
       component: MyRange
+    },
+    {
+      path: '/MyRater',
+      name: 'MyRater',
+      component: MyRater
+    },
+    {
+      path: '/MySearch',
+      name: 'MySearch',
+      component: MySearch
+    },
+    {
+      path: '/MySelecter',
+      name: 'MySelecter',
+      component: MySelecter
+    },
+    {
+      path: '/MySpinner',
+      name: 'MySpinner',
+      component: MySpinner
+    },
+    {
+      path: '/MyStep',
+      name: 'MyStep',
+      component: MyStep
     }
   ]
 })

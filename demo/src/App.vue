@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <router-link to="/">
-      <div class="vux-demo">
-        <img class="logo" src="./assets/vux_logo.png">
+      <!-- <div class="vux-demo">
+         <img class="logo" src="./assets/vux_logo.png"> 
         <h2>返回主页</h2>
-      </div>
+      </div> -->
     </router-link>
     <router-view></router-view>
   </div>

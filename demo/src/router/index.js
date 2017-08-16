@@ -47,6 +47,24 @@ import MySearch from '@/components/MySearch'
 import MySelecter from '@/components/MySelecter'
 import MySpinner from '@/components/MySpinner'
 import MyStep from '@/components/MyStep'
+import MySwipeOut from '@/components/MySwipeOut'
+import MySwiper from '@/components/MySwiper'
+import MyTab from '@/components/MyTab'
+import MyTimeLine from '@/components/MyTimeLine'
+import MyToast from '@/components/MyToast'
+import MyEmoji from '@/components/MyEmoji'
+import MyXadress from '@/components/MyXadress'
+import MyXbutton from '@/components/MyXbutton'
+import MyXcircle from '@/components/MyXcircle'
+import MyXdialog from '@/components/MyXdialog'
+import MyXheader from '@/components/MyXheader'
+import MyXimg from '@/components/MyXimg'
+import MyXinput from '@/components/MyXinput'
+import MyXnumber from '@/components/MyXnumber'
+import MyXprogress from '@/components/MyXprogress'
+import MyXswich from '@/components/MyXswich'
+import MyXtable from '@/components/MyXtable'
+import MyXtextarea from '@/components/MyXtextarea'
 
 Vue.use(Router)
 
@@ -286,6 +304,96 @@ export default new Router({
       path: '/MyStep',
       name: 'MyStep',
       component: MyStep
+    },
+    {
+      path: '/MySwipeOut',
+      name: 'MySwipeOut',
+      component: MySwipeOut
+    },
+    {
+      path: '/MySwiper',
+      name: 'MySwiper',
+      component: MySwiper
+    },
+    {
+      path: '/MyTab',
+      name: 'MyTab',
+      component: MyTab
+    },
+    {
+      path: '/MyTimeLine',
+      name: 'MyTimeLine',
+      component: MyTimeLine
+    },
+    {
+      path: '/MyToast',
+      name: 'MyToast',
+      component: MyToast
+    },
+    {
+      path: '/MyEmoji',
+      name: 'MyEmoji',
+      component: MyEmoji
+    },
+    {
+      path: '/MyXadress',
+      name: 'MyXadress',
+      component: MyXadress
+    },
+    {
+      path: '/MyXbutton',
+      name: 'MyXbutton',
+      component: MyXbutton
+    },
+    {
+      path: '/MyXcircle',
+      name: 'MyXcircle',
+      component: MyXcircle
+    },
+    {
+      path: '/MyXdialog',
+      name: 'MyXdialog',
+      component: MyXdialog
+    },
+    {
+      path: '/MyXheader',
+      name: 'MyXheader',
+      component: MyXheader
+    },
+    {
+      path: '/MyXimg',
+      name: 'MyXimg',
+      component: MyXimg
+    },
+    {
+      path: '/MyXinput',
+      name: 'MyXinput',
+      component: MyXinput
+    },
+    {
+      path: '/MyXnumber',
+      name: 'MyXnumber',
+      component: MyXnumber
+    },
+    {
+      path: '/MyXprogress',
+      name: 'MyXprogress',
+      component: MyXprogress
+    },
+    {
+      path: '/MyXswich',
+      name: 'MyXswich',
+      component: MyXswich
+    },
+    {
+      path: '/MyXtable',
+      name: 'MyXtable',
+      component: MyXtable
+    },
+    {
+      path: '/MyXtextarea',
+      name: 'MyXtextarea',
+      component: MyXtextarea
     }
   ]
 })

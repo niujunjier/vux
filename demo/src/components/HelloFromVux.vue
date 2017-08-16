@@ -63,7 +63,25 @@ export default {
         'MySearch',
         'MySelecter',
         'MySpinner',
-        'MyStep'
+        'MyStep',
+        'MySwipeOut',
+        'MySwiper',
+        'MyTab',
+        'MyTimeLine',
+        'MyToast',
+        'MyEmoji',
+        'MyXadress',
+        'MyXbutton',
+        'MyXcircle',
+        'MyXdialog',
+        'MyXheader',
+        'MyXimg',
+        'MyXinput',
+        'MyXnumber',
+        'MyXprogress',
+        'MyXswich',
+        'MyXtable',
+        'MyXtextarea'
       ]
     }
   }
